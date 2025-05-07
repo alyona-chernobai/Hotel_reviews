@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore all CSV and TXT files by default...
+*.csv
+*.txt
+*.png
+
+# ...но сохраняем нужные вручную:
+!tripadvisor_hotel_reviews.csv
+!requirements.txt
+!dashboard/Dashboard_HotelReviews.pbix
+!images/powerbi_dashboard.png
+
+# OS files
+.DS_Store
+Thumbs.db
